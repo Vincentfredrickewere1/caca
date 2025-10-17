@@ -65,6 +65,7 @@ main {
     color: white;
     font-weight: bold;
 }
+
 .bottom-home-flip {
     height: 400px;
     display: flex;
@@ -315,6 +316,15 @@ legend {
         height: 2200px;
     }
 
+    .home-bg-text {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        justify-items: center;
+        height: 80%;
+        text-align: center;
+    }
+
     .home-flip-details {
         width: 95%;
         height: 100%;
@@ -385,4 +395,18 @@ legend {
     .sbs-register-section {
         margin-top: -70px;
     }
+}
+
+@media screen and (max-width: 293px) {
+    .home-bg-text {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        justify-items: center;
+        height: 80%;
+        text-align: center;
+    }
+}
+.home-bg-text > span {
+    font-size: 50px;
 }
