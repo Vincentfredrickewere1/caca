@@ -128,6 +128,20 @@ main {
         margin-top: 1300px;
     }
 }
+@media screen and (max-width: 379px) {
+    .text-news {
+        font-size: 10px;
+    }
+    .head-news > span{
+        font-size: 13px;
+    }
+    .text-news > span {
+        font-size: 12px;
+    }
+    .read-more-news {
+        min-height: 50%;
+    }
+}
 @media screen and (max-width: 329px) {
     .text-news {
         font-size: 9px;
