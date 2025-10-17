@@ -125,7 +125,7 @@ main {
 }
 @media screen and (max-width: 703px) {
     footer {
-        margin-top: 1100px;
+        margin-top: 1000px;
     }
 }
 @media screen and (max-width: 379px) {
@@ -192,4 +192,5 @@ main {
         font-size: 4px;
     }
 }
+
 
